@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DK_leaves_flower_0: -8594224476586068660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

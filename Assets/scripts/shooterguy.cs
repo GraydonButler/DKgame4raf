@@ -8,7 +8,7 @@ public class shooterguy : MonoBehaviour
 
     public GameObject fireballPrefab;
     public float shootInterval;
-    public float fireballSpeed = 5f;
+    public float fireballSpeed = 1f;
     
 
     // Start is called before the first frame update
@@ -33,6 +33,8 @@ public class shooterguy : MonoBehaviour
         if (Player != null)
         {
             Vector3 direction = (Player.transform.position - transform.position).normalized;
+
+            
             GameObject projectile = Instantiate(fireballPrefab, transform.position, Quaternion.identity);
 
             projectile.GetComponent<Rigidbody2D>().velocity = direction * fireballSpeed;

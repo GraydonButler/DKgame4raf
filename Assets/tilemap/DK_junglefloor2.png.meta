@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DK_junglefloor2_0: 2534571590765677673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

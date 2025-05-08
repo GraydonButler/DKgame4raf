@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DK_leaves_branch1_0: 1523615609170790965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

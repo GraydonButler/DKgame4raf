@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DK_leaves_bushle_0: 3505639522297797738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
