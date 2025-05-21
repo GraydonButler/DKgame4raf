@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public playersoudscript PlayerSoundSystem;
     public healthgetter healthgetter;
 
-    private bool _canPlayHurtSoud = false;
+    private bool _canPlayHurtSoud = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +25,11 @@ public class PlayerHealth : MonoBehaviour
     public void takedamage(int damage)
     {
         playerhealth -= damage;
-        
-        healthgetter.ChangeHealth(playerhealth.ToString());
         PlayerSoundSystem.PlayerRandomHurtSound();
+        healthgetter.ChangeHealth(playerhealth.ToString());
+
+        
+
         if (playerhealth <= 0)
         {
             Die();
